@@ -7,6 +7,6 @@ import static com.codeborne.selenide.Selenide.$;
 public class ProductCardPage {
 
     public static SelenideElement productSize() {
-        return $(".selector span");
+        return $(".selector span").as("Размер товара");
     }
 }

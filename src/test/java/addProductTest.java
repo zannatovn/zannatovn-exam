@@ -21,13 +21,11 @@ public class addProductTest {
 
         step("Навести курсор на карточку товара", () -> {
             MainPage.productsCards()
-                    .get(0)
                     .hover();
         });
 
         step("Нажать на кнопку 'Add to cart' в карточке товара", () -> {
             MainPage.addToCartButton()
-                    .get(0)
                     .click();
         });
 
